@@ -14,8 +14,12 @@ public class LineDrawer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//line = GetComponent<LineRenderer> ();
-		Debug.Log (num);
-		num += 1;
+		if (Input.GetKey (KeyCode.Mouse0)) {
+			line = GetComponent<LineRenderer> ();
+			line.SetVertexCount (num + 1);
+			line.SetPosition (num, cursor.transform.position);
+			Debug.Log (num);
+			num += 1;
+		}
 	}
 }

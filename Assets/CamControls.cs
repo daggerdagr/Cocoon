@@ -17,6 +17,9 @@ public class CamControls : MonoBehaviour {
 		cursorcoord = Vector3.Scale (cursorcoord, new Vector3 (dist, dist, dist));
 		cursor.transform.position = cursorcoord;
 
+		dist += Input.GetAxis ("Mouse Y") * ((float) 0.1);
+		Debug.Log ((float)0.1);
+
 		//Debug.Log (transform.forward);
 		//Debug.Log (Input.GetAxis("Mouse X"));
 
@@ -24,10 +27,10 @@ public class CamControls : MonoBehaviour {
 		//w/ mouse:
 		//float moveLR = Input.GetAxis("Mouse X");
 		//float moveUD = Input.GetAxis("Mouse Y");
-		float moveLR = Input.GetAxis("Horizontal");
-		float moveUD = Input.GetAxis("Vertical");
-		this.transform.Rotate (new Vector3 (-1 * moveUD, moveLR, 0), Space.World);
-		Debug.Log (moveUD);
-		Debug.Log (moveLR);
+		//float moveLR = Input.GetAxis("Horizontal");
+		//float moveUD = Input.GetAxis("Vertical");
+		//this.transform.Rotate (new Vector3 (-1 * moveUD, moveLR, 0), Space.World);
+		//Debug.Log (moveUD);
+		//Debug.Log (moveLR);
 	}
 }
