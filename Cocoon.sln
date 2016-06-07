@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{4A15B408-BD69-2637-98BE-7E433D449DAE}") = "Cocoon", "Assembly-CSharp.csproj", "{4601A156-8DA1-E4EA-7530-DA9DFF83E234}"
+EndProject
+Project("{4A15B408-BD69-2637-98BE-7E433D449DAE}") = "Cocoon", "Assembly-CSharp-Editor.csproj", "{64A3D129-7C2E-0251-6506-6910B5A03095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4601A156-8DA1-E4EA-7530-DA9DFF83E234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4601A156-8DA1-E4EA-7530-DA9DFF83E234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4601A156-8DA1-E4EA-7530-DA9DFF83E234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4601A156-8DA1-E4EA-7530-DA9DFF83E234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A3D129-7C2E-0251-6506-6910B5A03095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A3D129-7C2E-0251-6506-6910B5A03095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A3D129-7C2E-0251-6506-6910B5A03095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A3D129-7C2E-0251-6506-6910B5A03095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
