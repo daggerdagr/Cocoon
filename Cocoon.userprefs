@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CamControls.cs">
     <Files>
-      <File FileName="Assets\CamControls.cs" Line="19" Column="33" />
+      <File FileName="Assets\LineDrawer.cs" Line="23" Column="18" />
+      <File FileName="Assets\CamControls.cs" Line="54" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
